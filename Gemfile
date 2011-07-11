@@ -1,8 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
-
-source 'http://rubygems.org'
+gem 'spork', '0.9.0.rc8'
 
 gem 'rails', '3.0.9'
 gem 'sqlite3', '1.3.3'
