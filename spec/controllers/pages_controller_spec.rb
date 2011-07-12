@@ -2,6 +2,10 @@ require 'spec_helper'
 
 describe PagesController do
   render_views
+   def help
+    @title = "Help"
+  end
+end
 
   describe "GET 'home'" do
     it "should be successful" do
